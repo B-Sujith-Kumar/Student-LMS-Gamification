@@ -1,0 +1,100 @@
+.content {
+  width: 100%;
+  height: calc(100vh - 75px);
+  overflow-y: auto;
+  background-color: var(--light);
+}
+/* .content::-webkit-scrollbar {
+  display: none;
+} */
+.contentData {
+  margin: 25px 20px;
+  padding: 20px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: rgba(178, 181, 184, 0.2) 0px 8px 24px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.uploadBtn {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  background-color: rgb(168, 98, 233);
+  color: white;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.submitBtn {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  background-color: rgb(54, 141, 248);
+  color: white;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.uploadedImgDiv{
+  border: 1px solid gray;
+  text-align: center;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 10px;
+}
+
+/* Add this CSS to your stylesheet */
+.course-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 300px;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.course-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.course-details {
+  padding: 15px;
+}
+
+.course-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.creator-name {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 12px;
+}
+
+.progress-bar {
+  height: 10px;
+  background-color: #eee;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.progress-bar-inner {
+  height: 100%;
+  background-color: #4caf50;
+  border-radius: 5px;
+}
+
+.progress-label {
+  font-size: 0.8rem;
+  color: #777;
+}
